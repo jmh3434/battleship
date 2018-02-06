@@ -1,0 +1,73 @@
+#wrapper {
+   
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+
+.row {
+    width: auto;
+    height: 50px;
+
+    
+}
+#ship{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:blue;
+}
+ #shootAt{
+    
+     color:black;
+     background-color: gainsboro;
+     font-family: sans-serif;
+     font-weight: bold;
+}
+#message{
+    
+ float: top;
+}
+#log{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+}
+
+td>div {
+    width: 9px;
+    height: 9px;
+
+    margin: 0px;
+
+    outline: 1px solid;
+    display: inline-block;
+    float: left;
+    background: #FFFFFF;
+}
+p.control{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:darkorange;
+}
+
+td>div.p1{
+    background-color: darkgrey;
+}
+td>div.p2{
+    background-color: red!important;
+}
+.invisible{
+    background-color: darkslategray;
+}
+.empty{
+    background-color: cornflowerblue;
+}
+.miss{
+    background-color: white !important;
+}
+.hit{
+    background-color: red !important;
+}
